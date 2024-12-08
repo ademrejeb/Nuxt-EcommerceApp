@@ -1,0 +1,53 @@
+{
+  "name": "wledi-store-dashboard",
+  "version": "1.0.0",
+  "description": "Wledi Store",
+  "engines": {
+    "node": "11.2.0",
+    "npm": "6.9.0"
+  },
+  "author": "Audasoft Technology",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=production node server/index.js",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/auth": "^4.9.1",
+    "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/dotenv": "^1.4.1",
+    "bootstrap": "^5.3.3",
+    "chart.js": "^2.9.2",
+    "cloudinary-vue": "^1.2.3",
+    "cross-env": "^5.2.1",
+    "d3": "^7.8.5",
+    "debug": "^4.3.4",
+    "dropbox": "^4.0.30",
+    "element-ui": "2.15.6",
+    "eslint": "^5.16.0",
+    "express": "^4.17.3",
+    "express-jwt": "^5.3.3",
+    "html2canvas": "^1.4.1",
+    "jsonwebtoken": "^8.2.1",
+    "jspdf": "2.5.1",
+    "jwt-decode": "^2.2.0",
+    "moment": "^2.29.1",
+    "node-sass": "^4.14.1",
+    "nuxt": "^2.15.8",
+    "sass-loader": "^7.3.1",
+    "vee-validate": "^2.2.15",
+    "vue-chartjs": "^3.5.0",
+    "vue-d3-charts": "^0.2.8",
+    "vue-gallery-slideshow": "^1.5.0",
+    "vue-json-excel": "^0.3.0",
+    "vue-quill-editor": "^3.0.6",
+    "vue-tinymce-editor": "^1.6.1"
+  },
+  "devDependencies": {
+    "babel-core": "7.0.0-bridge.0",
+    "babel-eslint": "^10.1.0",
+    "nodemon": "^1.19.4"
+  }
+}
